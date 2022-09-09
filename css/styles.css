@@ -99,21 +99,31 @@ text-align: left;
 
 
 .Images {
-  width: 25%;
+  width: 250px;
   float: left;
   margin-right: 10%;
+  margin-bottom: 5%;
 }
 
 .Images1 {
-  width: 25%;
+  width: 250px%;
   float: right;
   margin-left: 10%;
+  margin-top: 5%;
+}
 
+.Images2 {
+  max-width: 250px;
+}
+
+.Images1:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .footer-link {
     color: #11999E;
 }
+
 
 .caligraphy {
   clear: left;
